@@ -2,7 +2,7 @@ const Discord = require('discord.js');
 const client = new Discord.Client();
 var prefix = "$"
 var adminprefix = '&'
-const developers = ["541614978319384597","id"]
+const developers = ["565989380250927106","id"]
  
 client.on('message', message => {
     var p = message.mentions.members.first();
